@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>3</version>
+    <include>common.xml</include>
+	<enums>
+	</enums>
+	<messages>
+		<message id="210" name="AM_VP_TARG_POSE">
+			<description>This AutoModatility Vision Processor message encodes the translation and rotation vectors of the target pose.</description>
+			<field type="float" name="tvec_x">The translation on the x axis in meters.</field>
+			<field type="float" name="tvec_y">The translation on the y axis in meters.</field>
+			<field type="float" name="tvec_z">The translation on the z axis in meters.</field>
+			<field type="float" name="rvec_phi">The rotation around the x axis in radians.</field>
+			<field type="float" name="rvec_theta">The rotation around the y axis in radians.</field>
+			<field type="float" name="rvec_psi">The rotation around the z axis in radians.</field>
+		</message>
+	</messages>
+</mavlink>
